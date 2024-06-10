@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <title>Better Tic Toe</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script type="text/javascript" src="main.js"></script>
+ </head>
+<body>
+    <h1>Better Tic Tac Toe</h1>
+
+    <div class="grid-container">
+        <canvas id="canvas0" onclick="canvas_click(0)"></canvas>
+        <canvas id="canvas1" onclick="canvas_click(1)"></canvas>
+        <canvas id="canvas2" onclick="canvas_click(2)"></canvas>
+        <canvas id="canvas3" onclick="canvas_click(3)"></canvas>
+        <canvas id="canvas4" onclick="canvas_click(4)"></canvas>
+        <canvas id="canvas5" onclick="canvas_click(5)"></canvas>
+        <canvas id="canvas6" onclick="canvas_click(6)"></canvas>
+        <canvas id="canvas7" onclick="canvas_click(7)"></canvas>
+        <canvas id="canvas8" onclick="canvas_click(8)"></canvas>
+    </div>
+
+    <button onclick="restart()">Clear Board</button>
+
+    <div id="winning-screen" class="hidden">
+        <p id="winning-message"></p>
+    </div>
+</body>
+</html>
